@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+    color: blue;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p, li {
+    font-size: 1.25em;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: #000;
+    color: rgb(241, 236, 236);
+    background-color: rgb(10, 10, 212);
+}
+
+button:hover {
+    background-color: rgb(6, 6, 138);
+}
+
+.color-acento {
+    color: rgb(54, 19, 184);
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+
+header {
+    background-color: rgb(88, 171, 240);
+    padding: 20px 0;
+}
+
+header .logo {
+    margin: 0;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(7, 7, 163);
+    font-size: 1.6em;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(3, 2, 2);
+}
+
+header a:hover {
+    color: rgb(12, 194, 133);
+}
+
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 80vh;
+    color: rgb(160, 55, 55);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+    , url(../img/guppys.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1 {
+    color: blue;
+}
+
+
+#SOMOS-ACUARIO-GOLD-DUSK {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0;
+}
+
+#SOMOS-ACUARIO-GOLD-DUSK h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#SOMOS-ACUARIO-GOLD-DUSK p {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#nuestros-productos {
+    background-color: rgb(0, 0, 0);
+    color: blue;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#nuestros-productos h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+.carta {
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+    , url(../img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carta h3 {
+    font-size: 2em;
+}
+
+#contacto {
+    background-color: rgb(0, 0, 0);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contacto .contact-info {
+    text-align: center;
+    margin-bottom: 30px;
+    color: blue;
+}
+
+#contacto .contact-info h3 {
+    font-size: 2em;
+    color: rgb(54, 19, 184);
+    margin-bottom: 10px;
+}
+
+#contacto .contact-info p {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    color: blue;
+}
+
+#contacto input, #contacto textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+
+#contacto button {
+    background-color: rgb(10, 10, 212);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
